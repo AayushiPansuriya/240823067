@@ -143,8 +143,22 @@
 
 //   program-12 (Check Armstrong Number)
 
-// let n=153
-// let num=n.
+let n=153
+let num=n.toString()
+let count=num.length
+
+let sum=0
+ for (let digit of original){
+     sum+= Math.pow(Number(digit),count)
+
+ }
+ if(sum===n){
+     console.log("number is armstrong")
+ }
+ else{
+    console.log("number is not armstrong")
+ }
+
 
 
 // program-13 (Generate Fibonacci Series)
